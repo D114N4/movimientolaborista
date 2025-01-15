@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Diana Mariela">
+
+  <!-- Se agrega un link para establecer conexion con iconos de google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <!-- Se establece comunicación con google fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=heart_plus" />
+  <!-- Se agrega un icono que aparecera al lado del titulo de la pagina -->
+  <link rel="icon" href="/source/icono.png" type="image/x-icon" sizes="96x96">
+  <title>Movimiento Laborista</title>
+
+  <!-- Se establece una conexión con Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Se establece una conexión con CSS -->
+  <link rel="Stylesheet" href="/css/formulario.css">
+
+</head>
+
+<body>
+  <!-- Se crea una sección para destacar la navbar o menu de navegación -->
+  <main>
+    <navbar>
+      <ul class="nav">
+        <li><img class="logotipo" src="/source/icono.png"><a class="enlaces" href="index.html">Movimiento Laborista</a>
+        </li>
+        <li class="enlaces"><a href="./propuestas.html">Nuestras propuestas</li></a>
+        <li class="enlaces">Boletines</li>
+        <li class="enlaces"><a href="./transparencias.html">Transparencias</li></a>
+        <li class="enlaces"><a href="./politica.html">Nuestra politíca</li></a>
+        <li class="enlaces">Contáctanos</li>
+        <li class="enlaces">Apóyanos</li>
+        <buttton class="afiliate"><a class="afiliate" href="/html/formulario.html">AFILIATE AHORA
+            <span class="material-symbols-outlined">
+              heart_plus
+            </span></a>
+        </buttton>
+      </ul>
+    </navbar>
+  </main>
+
+  <body>
+    <fieldset>
+      <img class="background" src="/source/representación.jpg">
+      <h1 class="participa">Hazte miembro de Movimiento Laborista</h1>
+    </fieldset>
+
+    <fieldset>
+      <h2>Membresía y precios</h1>
+        <p>Nuestra cuota de membresía se divide en dos tarifas</p>
+        <p><b>Profesionales:</b> $51K al año</p>
+        <p><b>No trabajado:</b> $25K al año -para estudiantes, jubilados, desempleados o similares</p>
+        <button class="newMiembro" id="newMiembro">¡HAZTE MIEMBRO! 💙</button>
+    </fieldset>
+
+    <fieldset>
+      <h2>¿Que significa ser miembro?</h2>
+      <p>Como miembro del Movimiento Laborista, te unes y apoyas nuestro proyecto político.
+        Tú eliges que tan activo quieres ser. Después del registro, tendrá acceso a las páginas
+        internas de nuestro movimiento.
+        También serás parte de la asociación local donde vives. Al marcar "Quiero recibir notificaciones",
+        se envian periódicamente boletínes sobre asuntos políticos e invitaciones a diversos eventos.
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <h2>Tu aporte importa</h2>
+      <img src="/source/representacion2.png">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum laboriosam possimus pariatur temporibus quidem repellendus necessitatibus nobis veniam fugiat facilis sint nisi deserunt, quo corrupti est consequuntur labore. Dicta, porro?</p>
+      <button>Dar regalo</button>
+    </fieldset>
+
+    <fieldset>
+      <h2>Beneficios para miembros</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, laboriosam eum consectetur minima non at facilis praesentium, tempora, aspernatur quia perspiciatis modi distinctio consequatur? Error facilis optio expedita velit aperiam?</p>
+    </fieldset>
+
+    <fieldset>
+      <h2>Tu información personal como miembro</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit commodi blanditiis officia! Nisi iure ab soluta dicta temporibus ut, odit earum, consequatur labore molestiae error vero quibusdam numquam, consequuntur ullam?</p>
+    </fieldset>
+    
+    <fieldset>
+      <h2>¿Necesita ayuda?</h2>
+    </fieldset>
+
+    
+    <fieldset class="contacto" id="contacto">
+      <img src="./images/abisinio.jpg" class="imagenFormulario" alt="imagenGato">
+      <!-- Inicia formulario -->
+      <form class="formulario">
+        <h2 class="contactanos">Movimiento Laborista</h2>
+        <p class="registro">¡Se parte de nosotros! 🫂 </p>
+        <label class="nombreUsuario" for="nombre">Nombre completo: </label>
+        <input class="espacioUsuario" type="text" id="nombre" placeholder="Introduce tu nombre completo" required><br>
+        <label class="email" for="email">Correo electrónico:</label>
+        <input class="espacioEmail" type="email" id="email" placeholder="ejemplo@correo.com" required><br>
+        <label class="contacto" for="number"> Contacto: </label>
+        <input class="espacioContacto" type="number" id="number" placeholder=" Ingresa tu numero telefonico"><br>
+        <!-- <label class="nacion" for="text">Nacionalidad</label>
+        <select class="espacioNacion" id="asunto" required>
+          <option>Mexicana (o)</option>
+          <option>Extranjera (o)</option>
+        </select><br> -->
+        <legend class="genero">Género</legend>
+        <!-- Se crea una seccion de radio botones -->
+        <label class="radioname" for="genero-masculino"> Masculino </label>
+        <input class="radio" type="radio" name="genero" id="genero-masculino">
+
+        <label class="radioname" for="genero-femenino"> Femenino </label>
+        <input class="radio" type="radio" name="genero" id="genero-femenino">
+
+        <label class="radioname" for="genero-otro"> Otro </label>
+        <input class="radio" type="radio" name="genero" id="genero-otro"><br>
+        <button class="submit">Submit</button>
+    </fieldset>
+
+    <!-- FOOTER------------------------- -->
+    <footer>
+      <!-- PARTIDO -->
+      <section>
+        <img class="imagefooter" src="/source/logotiposinfondo.png">
+        <h1 class="title">Contáctanos</h1>
+        <p class="sub"> 📧 usuario@correo.com</p>
+        <p class="sub"> 📞 +584565552584 </p>
+        <p class="sub"> 🏚️ Av. San Juan </p>
+        <p class="sub"> Redes sociales:
+          <br>
+          <img class="socialRed" src="https://cdn-icons-png.flaticon.com/128/747/747374.png">
+          <img class="socialRed" src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png">
+          <img class="socialRed" src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png">
+        </p>
+      </section>
+
+      <!-- POLITICA -->
+      <section>
+        <h1 class="title">Politíca</h1>
+        <p class="sub">Nuestra politica</p>
+        <p class="sub">Politícos</p>
+        <p class="sub">Empleados</p>
+        <p class="sub">Informes y discursos</p>
+      </section>
+
+      <!-- MOVIMIENTO LABORISTA -->
+      <section>
+        <h1 class="title">Movimiento Laborista</h1>
+        <p class="sub">Sobre nosotros</p>
+        <p class="sub">Prensa y medios</p>
+        <p class="sub">Sobre nosotros</p>
+        <p class="sub">Puestos vacantes</p>
+        <p class="sub">Leyes y pautas éticas</p>
+        <p class="sub">Principales noticias</p>
+      </section>
+
+      <!-- PARTICIPAR -->
+      <section>
+        <h1 class="title">Participar</h1>
+        <p class="sub">Hazte miembro</p>
+        <p class="sub">Haz un regalo</p>
+        <p class="sub">Se politicamente activo</p>
+        <p class="sub">Hoja informativa</p>
+      </section>
+    </footer>
+    <div class="name">
+      <section class="name">
+        <h6 class="name"> &copy; MOVIMIENTO LABORISTA</h6>
+      </section>
+    </div>
+    <!-- Footer -->
+  </body>
+
+</html>
