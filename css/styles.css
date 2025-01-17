@@ -18,8 +18,8 @@
 
 /* NAVBAR */
 .nav {
-    font-weight: 00;
-    width: 100%;
+    max-width: 100%;
+    width: 100rem;
     display: flex;
     align-items: center;
     align-content: center;
@@ -108,6 +108,7 @@ a {
 }
 
 .sombra {
+    max-width: 100%;
     position: absolute;
     z-index: 0;
     top: 25rem;
@@ -124,6 +125,7 @@ a {
 }
 
 .botonDonaciones {
+    max-width: 100%;
     font-size: 1rem;
     border-radius: 2rem;
     transition: 1s;
