@@ -1,0 +1,446 @@
+/* Se eliminan los valores predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
+:root {
+    --background-azul1: #080056;
+    --background-azul2: #0E335B;
+    --color-amarillo: #cccc36;
+    --color-azulCielo: #09A0Db;
+    --color-negro: #000000;
+    --font-size: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.nav {
+    font-weight: 00;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    color: var(--background-azul1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    position: fixed;
+    background-color: rgb(253, 252, 249);
+    z-index: 1;
+}
+
+.logotipo {
+    width: 7rem;
+    margin: .4rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--background-azul1);
+}
+
+.enlaces {
+    text-decoration: none;
+    color: var(--background-azul1);
+    font-weight: 1rem;
+}
+
+.enlaces:hover {
+    padding: 1rem .5rem;
+    border-radius: .5rem;
+    text-decoration: underline;
+    color: var(--color-azulCielo);
+}
+
+.afiliate {
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: .2rem .5rem;
+    padding: .1rem .3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    transition: .3s;
+    background-color: var(--color-azulCielo);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.material-symbols-outlined {
+    margin: 0.3rem;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--color-negro);
+    margin: 0.3rem;
+}
+
+.afiliate:hover {
+    text-decoration: none;
+    border-radius: 2rem;
+    margin: .2rem .5rem;
+    padding: .1rem .3rem;
+    cursor: pointer;
+    color: var(--color-negro);
+    transition: .3s;
+    font-size: .95rem;
+
+}
+
+
+/*EMPIEZA BODY*/
+
+
+
+/* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
+.imagen1Fondo {
+    max-width: 100%;
+    width:100rem;
+    background-size: cover;
+    background-position: center;
+    margin: 5.5rem 0rem;
+}
+
+.sombra {
+    position: absolute;
+    z-index: 0;
+    top: 25rem;
+    left: 28rem;
+    background-color: var(--background-azul2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9rem;
+    transition: opacity .3s;
+    opacity: 1;
+    padding: 2rem 5rem;
+    color: white;
+}
+
+.botonDonaciones {
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.botonDonaciones:hover {
+    background-color: var(--background-azul2);
+    border-color: var(--background-azul1);
+    color: var(--color-amarillo);
+}
+
+/* -----------------INICIA SECCION DE PREGUNTAS ---------------------------------------------------------*/
+
+.preguntaExploracion {
+    max-width: 100%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--background-azul1);
+    font-weight: 500;
+    transition: 1s;
+}
+
+.preguntaExploracion:hover {
+    color: var(--color-azulCielo);
+}
+
+.espaciopregunta {
+    max-width: 100%;
+    margin: .5rem 21rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: .8rem 15rem;
+    color: var(--background-azul1);
+    font-weight: 500;
+    border-color: var(--background-azul1);
+    border-radius: 3rem;
+}
+
+
+/*-----------------------------------------------INICIA SECCION DE BOLETINES--------------------------------- */
+.boletines {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem 2rem 1rem 2rem; 
+    text-align: start;   
+
+}
+
+.imageBoletin {
+    max-width: 100%;
+    display: grid;
+    margin: 0rem .5rem;
+    gap: .2rem;
+    width: 25rem;
+    border-radius: .5rem;
+}
+
+.imageBoletin:hover{
+    max-width: 100%;
+    width: 25.2rem;
+}
+
+.boletin {
+    max-width:100%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    gap: .2rem;
+}
+
+.boletines-item {
+    max-width: 100%;
+    text-align: center;
+    padding: .5rem;    
+}
+
+.nombre {
+    max-width: 100%;
+    text-align: justify;
+    margin: .5rem;
+    padding: .5rem 1.5rem 1.5rem 0rem;
+    transition: .2s;
+}
+
+.nombre:hover{
+    text-decoration: overline;
+}
+
+/* boton de mas recientes */
+.botonMas {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0.2rem;
+    border-radius: .5rem;
+    color: var(--background-azul1);
+    background-color: white;
+    text-align: center;
+    margin: .5rem 37rem ;
+    padding: .2rem 1rem;
+}
+
+.botonMas:hover{
+    background-color: var(--color-azulCielo);
+    color: var(--color-negro);
+    border-color: var(--color-amarillo);
+}
+
+/* -------------------SECCION DE MAPA---------------- */
+
+.encuentranos{
+    max-width: 100%;
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1 2rem;
+    transition: .2s;
+}
+
+.encuentranos:hover{
+    color: var(--color-azulCielo);
+} 
+
+.google-maps{
+    max-width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color:#047cfd13;
+}
+
+/*----------------------REDES SOCIALES SECCION--------------------*/
+
+.redesSociales{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 1.4rem 2rem 1.4rem 8rem;
+}
+.facebook{
+    max-width: 100%;
+    width:15rem;
+    height: 15rem;
+}
+
+.facebook:hover{
+    width: 15.5rem;
+    height: 15.5rem;
+}
+
+/* -----------------------SECCION DE NUESTRA POLITICA---------------------------------- */
+.nuestraPolitica{
+    max-width: 100%;
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1 2rem;
+    transition: .2s;
+}
+
+.nuestraPolitica:hover{
+    color:var(--color-azulCielo);
+}
+
+.ourPolitica{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.ourPolitic{
+    max-width: 100%;
+    margin: 8rem 2rem 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ourPolitic:hover{
+    color:var(--background-azul1);
+}
+
+.ourPoliti{
+    max-width: 100%;
+    margin: 0rem 2rem 2rem 5rem;
+    width: 30rem;
+}
+
+.politicaSaber{
+    max-width: 100%;
+    margin:2rem ;
+    padding: 0.1rem .5rem;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--background-azul1);
+    border-color: var(--background-azul1);
+}
+
+.politicaSaber:hover{
+    border-color: var(--color-azulCielo);
+    background-color: var(--background-azul2);
+    color: white;
+}
+
+/* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
+
+.politicos{
+    max-width: 100%;
+    margin: 0rem 8rem;
+}
+
+.encuentranos{
+    max-width: 100%;
+    margin:0rem 1rem;
+}
+
+.persona{
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: 0rem 7rem;
+    text-align: center;
+}
+
+.persona:hover{
+    color: #000000;
+}
+
+.fotoPersonaje{
+    max-width: 100%;
+    width:15rem;
+    height: 15rem;
+    border-radius: 15rem;
+    margin: 1rem 5rem;
+}
+
+.saberMas{
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--background-azul1);
+    margin: 0rem 1rem 1rem 9rem;
+    padding:.1rem 1rem;
+    border-radius: 4rem;
+    border-color: var(--background-azul1);
+    align-items: center;
+}
+
+.saberMas:hover{
+    background-color: var(--color-azulCielo);
+    color: white;
+}
+
+.politicos{
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* ----------------------------------FOOTER----------------------------------------------- */
+footer{
+    max-width: 100%;
+    background-color: var(--background-azul1);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 3rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.imagefooter{
+    width: 8rem;
+    background-color: var(--background-azul2);
+    border-radius: 5rem;
+}
+
+.sub{
+    font-size: 1rem;
+}
+
+.sub:hover{
+    color:var(--background-azul2);
+    text-decoration: overline;
+}
+
+.name{
+    background-color: var(--background-azul2);
+    text-align: center;
+    padding: .5rem  1rem;
+    max-width: 100%;
+    font-size: 1rem;
+    color: var(--color-azulCielo);
+}
+
+.socialRed{
+    width: 2rem;
+}
