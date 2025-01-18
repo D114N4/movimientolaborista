@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 /*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
@@ -15,6 +14,7 @@
     --color-negro: #000000;
     --font-size: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 /* NAVBAR */
 .nav {
