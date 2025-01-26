@@ -19,7 +19,6 @@
 /* NAVBAR */
 .nav {
     max-width: 100%;
-    width: 100rem;
     display: flex;
     align-items: center;
     align-content: center;
@@ -30,6 +29,7 @@
     position: fixed;
     background-color: rgb(253, 252, 249);
     z-index: 1;
+    gap: 1.795rem;
 }
 
 .logotipo {
