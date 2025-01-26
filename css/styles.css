@@ -121,7 +121,6 @@ a {
 
 .sombra {
     max-width: 100%;
-    grid-area: auto;
     position: absolute;
     z-index: 0;
     top: 25rem;
