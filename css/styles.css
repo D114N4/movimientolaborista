@@ -1,10 +1,23 @@
 /* Se eliminan los valores predeterminados */
 * {
+    max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    max-width: 100%;
+}
+body{
+    max-width:100%;
+}
+html{
+    max-width:100%;
+}
 
+footer{
+    max-width:100%;
+}
 /*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
 :root {
     --background-azul1: #080056;
@@ -473,6 +486,7 @@ footer {
 @media(max-width:768px) {
     .navbar {
         justify-content: space-between;
+        color: var(--background-azul1);
     }
 
     .enlaces {
@@ -484,6 +498,7 @@ footer {
         width: 100%;
         flex-direction: column;
         text-align: center;
+        color: white;
     }
 
     .enlaces li {
@@ -493,6 +508,7 @@ footer {
     .hamburguer {
         display: flex;
         color: var(--color-negro);
+        
     }
 
     .nav-enlaces.show {
