@@ -1,4 +1,8 @@
 
+.fieldset{
+    margin:0;
+    padding: 0;
+}
 /* Para pantallas pequeñas (móviles) */
 @media (max-width: 600px) {
     .navbar {
