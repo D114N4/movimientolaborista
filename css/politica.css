@@ -291,3 +291,17 @@ footer{
 .socialRed{
     width: 2rem;
 }
+
+
+/* --------------------------MEDIAQUERIES----------------------------- */
+@media (min-width:1000.2px){
+    body{
+        background-color: blueviolet;
+    }
+    .persona{
+        margin: .5rem 1rem 0rem 5rem;
+    }
+    .saberMas{
+        margin: .5rem 1rem 1rem 6rem;
+    }
+}

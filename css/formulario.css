@@ -365,3 +365,30 @@ footer{
 .socialRed{
     width: 2rem;
 }
+
+
+/* ----------------------------------MEDIAQUERIES-------------------------- */
+@media (min-width:1000.2px){
+    .background{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        width: 100rem;
+    }
+    .fieldset{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        background-color: blueviolet;
+    }
+    .textAporte{
+        padding: 1rem 2.5rem;
+    }
+
+    .regalo{
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+}
