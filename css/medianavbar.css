@@ -1,0 +1,133 @@
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: space-between;
+        color: var(--background-azul1);
+    }
+
+    .enlaces {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--background-azul2);
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+
+    .enlaces li {
+        margin: 15px 0;
+    }
+
+    .hamburguer {
+        display: flex;
+        color: var(--color-negro);
+        
+    }
+
+    .nav-enlaces.show {
+        display: flex;
+        background-color: var(--background-azul2);
+    }
+
+    .sombra {
+        max-width: 100%;
+        position: flex;
+        z-index: 0;
+        top: 20rem;
+        left: 10rem;
+        padding: 2rem 5rem;
+    }
+
+    .espaciopregunta {
+        max-width: 100%;
+        margin: .5rem 1rem;
+    }
+
+    .botonMas {
+        max-width: 100%;
+        margin: .5rem 15rem;
+        padding: .2rem 1rem;
+    }
+
+    .nuestraPolitica {
+        text-align: start;
+        padding: .2rem 1rem;
+    }
+
+    .ourPolitica {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .ourPoliti {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .ourPolitic {
+        width: 15rem;
+        font-size: 1rem;
+        margin: 4rem;
+    }
+
+    .politicos {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .fotoPersonaje {
+        max-width: 100%;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 15rem;
+        margin: 1rem 2rem;
+
+    }
+
+    .saberMas {
+        max-width: 100%;
+        margin: 0rem 1rem 1rem 4rem;
+        padding: .1rem 1rem;
+    }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/*Escritorio*/
+@media (min-width: 1199.98px)  {
+    body{background: red;}
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: orange;}
+}
+
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    body{background: blue;}
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body{background: green;}
+ }
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    body{background: black;}
+}
+/*fin movil*/
