@@ -392,3 +392,34 @@ footer{
         padding: .5rem;
     }
 }
+
+@media (min-width: 900px) {
+    
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+
+    .fieldset{
+        margin:0rem;
+        padding: 0rem;
+    }
+
+    .background{
+        max-width: 100%;
+        width: 100%;
+    }
+    .textAporte{
+        padding: 1rem 1rem 1rem 2.5rem;
+    }
+
+    .formulario{
+        padding: 1rem;
+        background-color: var(--color-azulCielo);
+    }
+    .section .footer{
+        padding: 0;
+        margin: 0;
+    }
+
+}

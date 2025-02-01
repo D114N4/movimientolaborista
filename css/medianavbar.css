@@ -104,18 +104,18 @@
     }
 }
 
-/* Para pantallas medianas (tabletas) */
-@media (max-width: 1080px) {
-    body {
-        font-size: 15px;
-    }
-}
-
 /*Escritorio*/
 @media (min-width: 1199.98px)  {
     body{background: rgb(94, 14, 14);}
 }
 
+/* Para pantallas medianas (tabletas) */
+@media (min-width: 900px) {
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+}
 /*ESCRITORIO 2*/
 @media (min-width:1000.2px){
     body{

@@ -222,3 +222,34 @@ footer{
         margin: .5rem 1rem 1rem 6rem;
     }
 }
+
+@media (min-width: 900px) {
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+
+    .politicosBox{
+        padding: 2rem 0rem 0rem 1rem;
+        margin:  0rem 0rem;
+    }
+
+    .politicos{
+        gap:1rem;
+    }
+
+    .encuentranos{
+        margin:.2rem;
+    }
+    
+    .fotoPersonaje{
+        width: 12rem;
+    }
+    .persona{
+        margin:0 1rem;
+    }
+    .saberMas{
+        margin: 0rem 3rem;
+    }
+    
+}

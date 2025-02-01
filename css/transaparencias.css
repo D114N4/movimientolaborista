@@ -191,3 +191,16 @@ footer {
 .socialRed {
     width: 2rem;
 }
+
+/* --------------------------MEDIAQUERIES------------------------ */
+
+@media (min-width: 900px) {
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+    .transparencias{
+        padding: 5rem 1rem .5rem 3rem;
+    }
+    
+}

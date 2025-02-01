@@ -503,6 +503,22 @@ footer {
         padding:0;
     }
 }
+
+@media (min-width: 900px) {
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+    .ourPolitic{
+        padding: 1rem 1rem .5rem 3rem;
+    }
+
+    .politicos{
+        gap:1.5rem;
+    }
+    
+}
+
 /*Escritorio
 @media(max-width:1080px) { 
     .imagen1Fondo{
