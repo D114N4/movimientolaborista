@@ -519,6 +519,14 @@ footer {
     
 }
 
+/*----------------*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: orange;}
+    .espaciopregunta{
+        margin:.5rem 4rem;
+        padding: .5rem 10rem;
+    }
+}
 /*Escritorio
 @media(max-width:1080px) { 
     .imagen1Fondo{
