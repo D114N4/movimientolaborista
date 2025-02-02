@@ -1,6 +1,5 @@
 /* Se eliminan los valores predeterminados */
 * {
-    max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -524,9 +523,66 @@ footer {
     body{background: orange;}
     .espaciopregunta{
         margin:.5rem 4rem;
-        padding: .5rem 10rem;
+        padding: 1rem 10rem;
+    }
+    .preguntaExploracion{
+        font-size: 2rem;
+    }
+
+    iframe{
+        margin:0rem;
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .politicosBox{
+        margin:0; 
+        gap:0.2rem;
+    }
+
+    .fotoPersonaje{
+        height: 5rem;
+        width: 4rem;
+    }
+    
+    .saberMas{
+        font-size: .9rem;
     }
 }
+
+/*-------------------------Para movil---------------------------------*/
+ @media (max-width: 575.98px)and (orientation:portrait) {
+    body{background: green;}
+
+    fieldset{
+        margin:0;
+        padding:0;
+    }
+
+    .input{
+        margin:1rem;
+    }
+    .imagen1Fondo{
+        width: 100%;
+        margin:0rem;
+        padding: 0rem;
+    }
+
+    .preguntaExploracion{
+        font-size: 2rem;
+    }
+
+    section{
+        margin:0;
+        width: 100%;
+    }
+
+    .footer{
+        margin:auto;
+        padding: auto;
+    
+    }
+ }
 /*Escritorio
 @media(max-width:1080px) { 
     .imagen1Fondo{

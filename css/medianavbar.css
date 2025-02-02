@@ -134,7 +134,7 @@
 /*Portrait*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
     body{background: orange;}
-    
+
 }
 
 /*landscape*/
@@ -148,7 +148,6 @@
 /*Default*/
 @media (max-width: 575.98px)and (orientation:portrait) {
     body{background: green;}
-
  }
 /*landscape*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
