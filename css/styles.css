@@ -40,14 +40,14 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
     position: fixed;
-
     background-color: rgb(253, 252, 249);
     z-index: 1;
+    gap:1.5rem;
 }
 
 .logotipo {
     width: 7rem;
-    margin: .4rem;
+    margin: .5rem 1rem;
 }
 
 a {
@@ -55,13 +55,17 @@ a {
     text-decoration: none;
     color: var(--background-azul1);
     gap:1rem;
+    justify-content: space-around;
+    align-items: first baseline;
 }
 
 .enlaces {
     max-width: 100%;
     text-decoration: none;
     color: var(--background-azul1);
-    font-weight: 1rem;
+    font-weight: .5rem;
+    margin: .5rem .5rem .5rem 1rem;  
+
 }
 
 .enlaces:hover {
@@ -112,6 +116,7 @@ a {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    color: #000000;
 }
 
 .bar {
@@ -413,7 +418,7 @@ a {
     font-size: 1rem;
     color: var(--background-azul1);
     margin: 0rem 1rem 1rem 8rem;
-    padding: .1rem 1rem;
+    padding: .1rem 4.5rem;
     border-radius: 4rem;
     border-color: var(--background-azul1);
     align-items: initial;
@@ -534,7 +539,11 @@ footer {
         max-width: 100%;
         width: 90%;
     }
-
+    
+    .sombra{
+        align-items: center;
+        margin: 2rem 5rem 2rem 0rem;
+    }
     .politicosBox{
         margin:0; 
         gap:0.2rem;
@@ -560,26 +569,70 @@ footer {
     }
 
     .input{
-        margin:1rem;
+        margin:0rem;
     }
     .imagen1Fondo{
         width: 100%;
         margin:0rem;
         padding: 0rem;
+        display: flex;
+    }
+
+    .sombra{
+        font-size: medium;
+        align-items: center;
+        margin: 0rem 8rem 0rem 0rem;
     }
 
     .preguntaExploracion{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
+    .espaciopregunta{
+        font-size: .8rem;
+        margin: 1rem 2rem;
+        padding: .5rem 10rem;
+    }
+
+    
     section{
-        margin:0;
+        margin:0rem;
         width: 100%;
+    }
+
+    .google-maps{
+        margin: 1rem 0rem;
+        width: 8rem;
+
+    }
+
+    .fotoPersonaje{
+        width: 4rem;
+        height: 1rem;
+    }
+    
+    .item-politico{
+        gap:1rem;
+        width: 8rem;
+    }
+    
+    .persona{
+        font-size: 1rem;
+        margin: .5rem 2rem;
+        text-align: center;
+
+    }
+    
+    .saberMas{
+        font-size: .8rem;
+        padding: .5rem 1rem;
+        margin:.5rem;
     }
 
     .footer{
         margin:auto;
         padding: auto;
+        background-color: #080056;
     
     }
  }
@@ -734,4 +787,4 @@ footer {
         padding: .1rem 1rem;
     }
 } */
-/* ---------------------------MEDIA QUERIES----------------------------- */
+/* ---------------------------MEDIA QUERIES---------------------------*/
