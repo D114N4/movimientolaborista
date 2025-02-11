@@ -184,17 +184,17 @@ h2:hover {
 
 /* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
 
-.politicos{
+.politicos {
     max-width: 100%;
     margin: 3rem 8rem;
 }
 
-.encuentranos{
+.encuentranos {
     max-width: 100%;
-    margin:0rem 1rem;
+    margin: 0rem 1rem;
 }
 
-.persona{
+.persona {
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -203,46 +203,46 @@ h2:hover {
     text-align: center;
 }
 
-.persona:hover{
+.persona:hover {
     color: #000000;
 }
 
-.fotoPersonaje{
+.fotoPersonaje {
     max-width: 100%;
-    width:15rem;
+    width: 15rem;
     height: 15rem;
     border-radius: 15rem;
-    gap:5rem;
+    gap: 5rem;
     margin: 1rem 5rem;
 }
 
-.saberMas{
+.saberMas {
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
     margin: .5rem 6rem 1rem 8rem;
-    padding:.1rem 1rem;
+    padding: .1rem 1rem;
     border-radius: 4rem;
     border-color: var(--background-azul1);
     align-items: start;
 }
 
-.saberMas:hover{
+.saberMas:hover {
     background-color: var(--color-azulCielo);
     color: white;
 }
 
-.politicos{
+.politicos {
     max-width: 100%;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 
 
 /* ----------------------------------FOOTER----------------------------------------------- */
-footer{
+footer {
     max-width: 100%;
     background-color: var(--background-azul1);
     color: white;
@@ -255,46 +255,138 @@ footer{
     padding: 3rem;
 }
 
-.title{
+.title {
     font-size: 1.5rem;
     padding: 0rem 1rem 0rem 0rem;
 }
 
-.title:hover{
+.title:hover {
     text-decoration: underline;
 }
 
-.imagefooter{
+.imagefooter {
     width: 8rem;
     background-color: var(--background-azul2);
     border-radius: 5rem;
 }
 
-.sub{
+.sub {
     font-size: 1rem;
 }
 
-.sub:hover{
-    color:var(--background-azul2);
+.sub:hover {
+    color: var(--background-azul2);
     text-decoration: overline;
 }
 
-.name{
+.name {
     background-color: var(--background-azul2);
     text-align: center;
-    padding: .5rem  1rem;
+    padding: .5rem 1rem;
     max-width: 100%;
     font-size: 1rem;
     color: var(--color-azulCielo);
 }
 
-.socialRed{
+.socialRed {
     width: 2rem;
 }
 
 
 /* --------------------------MEDIAQUERIES----------------------------- */
-@media (min-width:1000.2px){
+
+@media (min-width: 900px) {
+
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+
+    .politicosBox {
+        padding: .5rem 0rem 0rem 1rem;
+        margin: 0rem 0rem;
+    }
+
+    .politicos {
+        gap: 1rem;
+    }
+
+    .encuentranos {
+        margin: .2rem;
+    }
+
+    .fotoPersonaje {
+        margin: .5rem;
+    }
+
+    .persona {
+        margin: 0 1rem;
+    }
+
+    .saberMas {
+        margin: 0rem 3rem;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+
+    .fotoPersonaje {
+        margin: .2rem;
+        width: 15rem;
+        height: 10rem;
+    }
+
+    section {
+        margin: 0rem;
+        width: 100%;
+    }
+
+    .item-politico {
+        gap: 1rem;
+        width: 10rem;
+    }
+
+    .persona {
+        font-size: 1rem;
+        margin: .5rem 2rem;
+        text-align: center;
+
+    }
+
+    .saberMas {
+        font-size: .8rem;
+        padding: .5rem 1rem;
+        margin: .5rem 1.5rem;
+    }
+
+
+}
+
+
+/* --------------------------MEDIAQUERIES------------------------ */
+
+/* @media (min-width: 761px) and (max-width: 989.98px) and (orientation:portrait) {
+    body{background: rgb(0, 255, 21);}
+
+}
+@media (min-width: 900px) {
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+    .transparencias{
+        padding: 5rem 1rem .5rem 3rem;
+    }
+
+} */
+/* -------------------------MEDIAQUERIES------------------------------ */
+/* @media (min-width:1000.2px){
     body{
         background-color: blueviolet;
     }
@@ -304,35 +396,174 @@ footer{
     .saberMas{
         margin: .5rem 1rem 1rem 6rem;
     }
+
+    .fieldset{
+        margin:0;
+        padding:0;
+    }
+} */
+
+/* @media (min-width: 900px) {
+    body {
+        font-size: 15px;
+        background-color: aqua;
+    }
+    .ourPolitic{
+        padding: 1rem 1rem .5rem 3rem;
+    }
+
+    .politicos{
+        gap:1.5rem;
+    }
+
+} */
+
+
+/*----------------*/
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .enlaces {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--background-azul2);
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+
+    .enlaces li {
+        margin: 15px 0;
+    }
+
+    .hamburguer {
+        display: flex;
+        color: var(--color-negro);
+
+    }
+
+    .nav-enlaces.show {
+        display: flex;
+        background-color: var(--background-azul2);
+    }
+
+    .nuestraPolitica {
+        text-align: start;
+        padding: .2rem 1rem;
+    }
+
+    .ourPolitica {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .ourPoliti {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .ourPolitic {
+        width: 15rem;
+        font-size: 1rem;
+        margin: 4rem;
+    }
+
+    .politicos {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .fotoPersonaje {
+        max-width: 100%;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 15rem;
+        margin: 1rem 2rem;
+
+    }
+
+    .saberMas {
+        max-width: 100%;
+        margin: 0rem 1rem 1rem 4rem;
+        padding: .1rem 1rem;
+    }
+
+    body {
+        background-color: blue;
+    }
+
+    h2 {
+        color: var(--background-azul1);
+        font-size: 1.5rem;
+        margin: 0rem;
+    }
+
+    .poli-item img {
+        border-radius: 1rem;
+        height: 25rem;
+        width: 29rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        
+    }
+
+    .datoCurioso{
+        margin:0;
+        padding: 1rem;
+        top:1rem;
+        font-size: 1rem;
+    }
+
 }
 
-@media (min-width: 900px) {
-    
-        body {
-            font-size: 15px;
-            background-color: aqua;
-        }
-    
-        .politicosBox{
-            padding: .5rem 0rem 0rem 1rem;
-            margin:  0rem 0rem;
-        }
-    
-        .politicos{
-            gap:1rem;
-        }
-    
-        .encuentranos{
-            margin:.2rem;
-        }
-        .fotoPersonaje{
-            margin:.5rem;
-        }
-        .persona{
-            margin:0 1rem;
-        }
-        .saberMas{
-            margin: 0rem 3rem;
-        }
-    
+
+/*-------------------------Para movil---------------------------------*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body {
+        background: green;
+    }
+
+    .acuerdos-item {
+        width: 8rem;
+    }
+
+    .acuerdos-item:hover {
+        width: 8.5rem;
+    }
+
+
+    .footer {
+        margin: auto;
+        padding: auto;
+        background-color: #080056;
+        gap: 2rem;
+    }
+
+    .section {
+        gap: 2rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .sub {
+        font-size: .75rem;
+    }
+
+    .socialRed {
+        width: .75rem;
+    }
+
+    .imagefooter {
+        width: 5.5rem;
+    }
 }
