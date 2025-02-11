@@ -3,9 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
+header{
+    max-width: 100%;
+}
+body{
+    max-width:100%;
+}
+html{
+    max-width:100%;
 }
 
+footer{
+    max-width:100%;
+}
 /*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
 :root {
     --background-azul1: #080056;
@@ -16,10 +27,11 @@
     --font-size: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 /* NAVBAR */
 .nav {
-    font-weight: 00;
-    width: 100%;
+    max-width: 100%;
+    width: 100rem;
     display: flex;
     align-items: center;
     align-content: center;
@@ -30,22 +42,30 @@
     position: fixed;
     background-color: rgb(253, 252, 249);
     z-index: 1;
+    gap:1.5rem;
 }
 
 .logotipo {
     width: 7rem;
-    margin: .4rem;
+    margin: .5rem 1rem;
 }
 
 a {
+    max-width: 100%;
     text-decoration: none;
     color: var(--background-azul1);
+    gap:1rem;
+    justify-content: space-around;
+    align-items: first baseline;
 }
 
 .enlaces {
+    max-width: 100%;
     text-decoration: none;
     color: var(--background-azul1);
-    font-weight: 1rem;
+    font-weight: .5rem;
+    margin: .5rem .5rem .5rem 1rem;  
+
 }
 
 .enlaces:hover {
@@ -92,54 +112,24 @@ a {
 
 }
 
-
-
-
-
-/*-------------------------------SECCION DE PARA SABER MAS---------------------------------------------*/
-body {
-    max-width: 100%;
+.hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    color: #000000;
 }
 
-.transparencias {
-    background-color: #0e335b1c;
-    display: grid;
-    margin: 0rem 5rem;
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--background-azul1);
+    margin: 4px 0;
+    transition: 0.3s;
 }
 
-.acuerdos {
-    display: grid;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 8rem 1rem 1rem 0rem;
-}
 
-.acuerdos-lista {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
 
-.acuerdos-item {
-    margin: auto;
-    width: 15rem;
-    border-radius: 8rem;
-}
-
-.acuerdos-item:hover {
-    width: 15.5rem;
-}
-
-.nombre {
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 1rem 2rem;
-}
-
-.nombre:hover {
-    text-decoration: underline;
-}
+/*-----------------------------SECCION DE BOLETINES------------------------------------------*/
 
 /* ----------------------------------FOOTER----------------------------------------------- */
 footer {
@@ -191,108 +181,4 @@ footer {
 .socialRed {
     width: 2rem;
 }
-
-/* --------------------------MEDIAQUERIES------------------------ */
-
-@media (min-width: 761px) and (max-width: 989.98px) and (orientation:portrait) {
-    body{background: rgb(0, 255, 21);}
-
-}
-@media (min-width: 900px) {
-    body {
-        font-size: 15px;
-        background-color: aqua;
-    }
-    .transparencias{
-        padding: 5rem 1rem .5rem 3rem;
-    }
-    
-}
-/* -------------------------MEDIAQUERIES------------------------------ */
-@media (min-width:1000.2px){
-    body{
-        background-color: blueviolet;
-    }
-    .persona{
-        margin: .5rem 1rem 0rem 5rem;
-    }
-    .saberMas{
-        margin: .5rem 1rem 1rem 6rem;
-    }
-
-    .fieldset{
-        margin:0;
-        padding:0;
-    }
-}
-
-@media (min-width: 900px) {
-    body {
-        font-size: 15px;
-        background-color: aqua;
-    }
-    .ourPolitic{
-        padding: 1rem 1rem .5rem 3rem;
-    }
-
-    .politicos{
-        gap:1.5rem;
-    }
-    
-}
-
-
-/*----------------*/
-@media (min-width: 576px) and (max-width: 850.98px) and (orientation:portrait) {
-    body{background: orange;}
-
-    .acuerdos-item{
-        width:10rem;
-    }
-
-    .acuerdos-item:hover{
-        width: 10.5rem;
-    }
-
-}
-
-/*-------------------------Para movil---------------------------------*/
- @media (max-width: 575.98px)and (orientation:portrait) {
-    body{background: green;}
-    
-    .acuerdos-item{
-        width:8rem;
-    }
-
-    .acuerdos-item:hover{
-        width: 8.5rem;
-    }
-
-
-    .footer{
-        margin:auto;
-        padding: auto;
-        background-color: #080056;
-        gap:2rem;
-    }
-    
-    .section{
-        gap:2rem;
-    }
-    
-    .title{
-        font-size: 1rem;
-    }
-    .sub{
-        font-size: .75rem;
-    }
-
-    .socialRed{
-        width:.75rem;
-    }
-
-    .imagefooter{
-        width: 5.5rem;
-    }
- }
 
