@@ -635,6 +635,26 @@ footer {
         background-color: #080056;
     
     }
+    
+    
+    .section{
+        gap:2rem;
+    }
+    
+    .title{
+        font-size: 1rem;
+    }
+    .sub{
+        font-size: .75rem;
+    }
+
+    .socialRed{
+        width:.75rem;
+    }
+
+    .imagefooter{
+        width: 5.5rem;
+    }
  }
 /*Escritorio
 @media(max-width:1080px) { 
