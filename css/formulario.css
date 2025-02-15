@@ -94,16 +94,16 @@ a {
 
 /* --------------------------------BODY----------------------------------- */
 
-.background{
+.background {
     max-width: 100%;
-    margin:2rem;
+    margin: 2rem;
     align-items: center;
     width: 80rem;
     height: 35rem;
 }
 
 
-.participa{
+.participa {
     max-width: 50%;
     position: absolute;
     z-index: 0;
@@ -121,27 +121,27 @@ a {
     text-align: center;
 }
 
-.participa:hover{
+.participa:hover {
     background-color: var(--background-azul1);
     color: white;
 }
 
-.tittle{
+.tittle {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2rem;
     color: var(--background-azul1);
 }
 
-.text{
+.text {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    margin:0.5rem 2rem;
+    margin: 0.5rem 2rem;
     font-size: 1rem;
     color: var(--background-azul2);
 }
 
-.newMiembro{
+.newMiembro {
     border-radius: 1.5rem;
     text-align: center;
     justify-items: center;
@@ -150,42 +150,42 @@ a {
     border-color: var(--background-azul1);
 }
 
-.newMiembro:hover{
+.newMiembro:hover {
     border-color: var(--background-azul1);
-    color:white;
+    color: white;
     background-color: var(--background-azul2);
 }
 
-.membresia{
+.membresia {
     background-color: #0e335b7a;
     border-radius: 2rem;
     padding: 1rem 3rem;
-    margin:2rem 15rem;
+    margin: 2rem 15rem;
 }
 
 /* ---------------------------------SECCION MIEMBRO-------------------------------------- */
-.miembro{
+.miembro {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: var(--background-azul1);
     background-color: #09a0db48;
-    margin:2rem 15rem;
+    margin: 2rem 15rem;
     border-radius: 2rem;
     padding: 1rem;
 }
 
-.member{
+.member {
     font-size: 2rem;
     text-align: center;
 }
 
-.parrafo{
+.parrafo {
     text-align: justify;
-    margin:2rem;
+    margin: 2rem;
 }
 
 /* --------------------------------- SECCION DE APORTE------------------------------------- */
-.aporte{
+.aporte {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     display: grid;
@@ -193,29 +193,29 @@ a {
     grid-template-rows: auto;
 }
 
-.aporteTittle{
+.aporteTittle {
     font-size: 2.5rem;
     text-align: center;
     color: var(--background-azul1);
 }
 
-.imageAporte{
-    max-width:100%;
-    margin:1rem 2rem;
+.imageAporte {
+    max-width: 100%;
+    margin: 1rem 2rem;
     border-radius: 2rem 0 0 2rem;
     width: 40rem;
     height: 25rem;
 }
 
-.textAporte{
-    margin:1rem 1rem 0 0rem;
-    padding:4rem 1rem;
+.textAporte {
+    margin: 1rem 1rem 0 0rem;
+    padding: 4rem 1rem;
     text-align: justify;
 }
 
-.regalo{
+.regalo {
     padding: .2rem 2rem;
-    margin:3rem 10rem;
+    margin: 3rem 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,31 +226,31 @@ a {
 }
 
 /* -----------------------------SECCION DE BENEFICIOS--------------------------- */
-.beneficios{
+.beneficios {
     text-align: center;
     padding: .5rem;
 }
 
-.textBeneficios{
+.textBeneficios {
     padding: .5rem 1.5rem;
     text-align: justify;
 }
 
 
 /* -----------------------------SECCION DE INFORMACION PERSONAL ------------------------*/
-.inf{
+.inf {
     text-align: center;
     color: var(--background-azul1);
 }
 
-.textInf{
+.textInf {
     text-align: justify;
     padding: .5rem 2rem;
     color: var(--background-azul1);
 }
 
 /* ------------------------------------SECCION DE AYUDA------------------------------------ */
-.help{
+.help {
     text-align: center;
     color: var(--background-azul1);
     font-family: Arial, Helvetica, sans-serif;
@@ -259,54 +259,57 @@ a {
 
 /* ------------------------SECCION FORMULARIO------------------------------------- */
 
-.contacto{
+.contacto {
     max-width: 90%;
-    margin:1rem 4rem;
+    margin: 1rem 4rem;
     background-color: #09005657;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 2rem;
 }
-.imagen2{
+
+.imagen2 {
     width: 37rem;
     height: 30rem;
     border-radius: 2rem;
 }
 
-.formulario{
+.formulario {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
 
-.contactanos{
+.contactanos {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
-    margin:.5rem 1rem;
+    margin: .5rem 1rem;
 }
 
-.espacioUsuario{
+.espacioUsuario {
     border-radius: 1rem;
     font-size: 1rem;
     padding: .5rem 5rem;
-    margin:.5rem;
-    text-align: initial;
-}
-.espacioEmail{
-    border-radius: 1rem;
-    font-size: 1rem;
-    padding: .5rem 5rem;
-    margin:.5rem;
-    text-align: initial;
-}
-.espacioContacto{
-    border-radius: 1rem;
-    font-size: 1rem;
-    padding: .5rem 5rem;
-    margin:.5rem;
+    margin: .5rem;
     text-align: initial;
 }
 
-.submit{
+.espacioEmail {
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    margin: .5rem;
+    text-align: initial;
+}
+
+.espacioContacto {
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    margin: .5rem;
+    text-align: initial;
+}
+
+.submit {
     border-radius: 2rem;
     border-color: var(--background-azul1);
     background-color: var(--background-azul2);
@@ -315,8 +318,9 @@ a {
     text-align: center;
     margin: 2rem 12rem;
 }
+
 /* ----------------------------------FOOTER----------------------------------------------- */
-footer{
+footer {
     max-width: 100%;
     background-color: var(--background-azul1);
     color: white;
@@ -329,97 +333,164 @@ footer{
     padding: 3rem;
 }
 
-.title{
+.title {
     font-size: 1.5rem;
     padding: 0rem 1rem 0rem 0rem;
 }
 
-.title:hover{
+.title:hover {
     text-decoration: underline;
 }
 
-.imagefooter{
+.imagefooter {
     width: 8rem;
     background-color: var(--background-azul2);
     border-radius: 5rem;
 }
 
-.sub{
+.sub {
     font-size: 1rem;
 }
 
-.sub:hover{
-    color:var(--background-azul2);
+.sub:hover {
+    color: var(--background-azul2);
     text-decoration: overline;
 }
 
-.name{
+.name {
     background-color: var(--background-azul2);
     text-align: center;
-    padding: .5rem  1rem;
+    padding: .5rem 1rem;
     max-width: 100%;
     font-size: 1rem;
     color: var(--color-azulCielo);
 }
 
-.socialRed{
+.socialRed {
     width: 2rem;
 }
 
 
 /* ----------------------------------MEDIAQUERIES-------------------------- */
-@media (min-width:1000.2px){
-    .background{
-        padding: 0;
-        margin: 0;
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body {
         max-width: 100%;
-        width: 100rem;
-    }
-    .fieldset{
-        margin: 0;
-        padding: 0;
-
-    }
-    body{
-        background-color: blueviolet;
-    }
-    .textAporte{
-        padding: 1rem 2.5rem;
     }
 
-    .regalo{
-        font-size: 1.2rem;
-        padding: .5rem;
+    .acuerdos-item {
+        width: 8rem;
+    }
+
+    .acuerdos-item:hover {
+        width: 8.5rem;
+    }
+
+
+    .footer {
+        margin: auto;
+        padding: auto;
+        background-color: #080056;
+        gap: 2rem;
+    }
+
+    .section {
+        gap: 2rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .sub {
+        font-size: .75rem;
+    }
+
+    .socialRed {
+        width: .75rem;
+    }
+
+    .imagefooter {
+        width: 5.5rem;
     }
 }
 
-@media (min-width: 900px) {
-    
+/*ESCRITORIO 2*/
+@media screen and (max-width: 975.98px)and (min-width: 550px) and (orientation:portrait) {
     body {
-        font-size: 15px;
-        background-color: aqua;
-    }
-
-    .fieldset{
-        margin:0rem;
-        padding: 0rem;
-    }
-
-    .background{
         max-width: 100%;
-        width: 100%;
+    }
+
+    .background {
+        max-width: 100%;
+    }
+
+    .participa {
+        align-items: center;
+        right: 16rem;
+        left: 10rem;
+    }
+
+    .membresia {
+        align-items: center;
+        margin: 2rem 8rem 2rem 1rem;
+    }
+
+    .miembro {
+        align-items: center;
+        margin: 2rem 8rem 2rem 1rem;
+
     }
     .textAporte{
-        padding: 1rem 1rem 1rem 2.5rem;
+        font-size: 1.5rem;
+        margin: 3rem 2rem;
+    }
+    .contacto{
+        background-color: white;
     }
 
-    .formulario{
-        padding: 1rem;
-        background-color: var(--color-azulCielo);
+    .footer {
+        max-width: 100%;
+
+
     }
-    .section .footer{
-        padding: 0;
-        margin: 0;
+}
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body {
+        max-width: max-content;
+    
+    }
+    .background {
+        max-width: 100%;
     }
 
+    .participa {
+        align-items: center;
+        right: 16rem;
+        left: 10rem;
+    }
+
+    .membresia {
+        align-items: center;
+        margin: 2rem 8rem 2rem 1rem;
+    }
+
+    .miembro {
+        align-items: center;
+        margin: 2rem 8rem 2rem 1rem;
+
+    }
+    .textAporte{
+        font-size: 1.5rem;
+        margin: 3rem 2rem;
+    }
+    .contacto{
+        background-color: white;
+    }
+
+    .footer {
+        max-width: 100%;
+        margin: 1rem 0rem 0rem 0rem;
+    }
 }
