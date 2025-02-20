@@ -195,13 +195,13 @@ footer {
 /* --------------------------MEDIAQUERIES------------------------ */
 
 @media (min-width: 761px) and (max-width: 989.98px) and (orientation:portrait) {
-    body{background: rgb(0, 255, 21);}
+    body{max-width: 100%;}
 
 }
 @media (min-width: 900px) {
     body {
         font-size: 15px;
-        background-color: aqua;
+        max-width: 100%;
     }
     .transparencias{
         padding: 5rem 1rem .5rem 3rem;
@@ -211,7 +211,7 @@ footer {
 /* -------------------------MEDIAQUERIES------------------------------ */
 @media (min-width:1000.2px){
     body{
-        background-color: blueviolet;
+        max-width: 100%;
     }
     .persona{
         margin: .5rem 1rem 0rem 5rem;
@@ -229,7 +229,7 @@ footer {
 @media (min-width: 900px) {
     body {
         font-size: 15px;
-        background-color: aqua;
+        max-width: 100%;
     }
     .ourPolitic{
         padding: 1rem 1rem .5rem 3rem;
@@ -244,7 +244,7 @@ footer {
 
 /*----------------*/
 @media (min-width: 576px) and (max-width: 850.98px) and (orientation:portrait) {
-    body{background: orange;}
+    body{max-width: 100%;}
 
     .acuerdos-item{
         width:10rem;
@@ -258,7 +258,7 @@ footer {
 
 /*-------------------------Para movil---------------------------------*/
  @media (max-width: 575.98px)and (orientation:portrait) {
-    body{background: green;}
+    body{max-width: 100%;}
     
     .acuerdos-item{
         width:8rem;

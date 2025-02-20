@@ -299,7 +299,7 @@ footer {
 
     body {
         font-size: 15px;
-        background-color: aqua;
+        max-width: 100%;
     }
 
     .politicosBox {
@@ -333,7 +333,7 @@ footer {
 
     body {
         font-size: 15px;
-        background-color: aqua;
+        max-width: 100%;
     }
 
     .fotoPersonaje {
@@ -496,7 +496,7 @@ footer {
     }
 
     body {
-        background-color: blue;
+        max-width: 100%;
     }
 
     h2 {
@@ -528,7 +528,7 @@ footer {
 /*-------------------------Para movil---------------------------------*/
 @media (max-width: 575.98px)and (orientation:portrait) {
     body {
-        background: green;
+    max-width: 100%;
     }
 
     .acuerdos-item {
