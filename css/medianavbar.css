@@ -29,7 +29,7 @@
     }
 
     .hamburguer {
-        display: flex;
+        display: none;
         color: var(--color-negro);
 
     }
@@ -40,21 +40,21 @@
     }
 
     .sombra {
-        max-width: 100%;
-        position: flex;
+        position: fixed;
         z-index: 0;
-        top: 20rem;
+        top: 15rem;
         left: 10rem;
-        padding: 2rem 5rem;
+        padding: 2rem 4rem;
     }
 
     .espaciopregunta {
-        max-width: 100%;
+        width: 100%;
         margin: .5rem 1rem;
+        font-size: 1rem;
+        padding: .5rem 1.5rem;
     }
 
     .botonMas {
-        max-width: 100%;
         margin: .5rem 15rem;
         padding: .2rem 1rem;
     }
@@ -82,12 +82,12 @@
     }
 
     .politicos {
-        max-width: 100%;
+        width: 100%;
         margin: 0;
     }
 
     .fotoPersonaje {
-        max-width: 100%;
+        width: 100%;
         width: 10rem;
         height: 10rem;
         border-radius: 15rem;
@@ -96,13 +96,13 @@
     }
 
     .saberMas {
-        max-width: 100%;
+        width: 100%;
         margin: 0rem 1rem 1rem 4rem;
         padding: .1rem 1rem;
     }
 
     body {
-        max-width: max-content;
+        width:max-content;
     }
 }
 
@@ -117,7 +117,7 @@
 @media (min-width: 900px) {
     body {
         font-size: 15px;
-        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -144,7 +144,7 @@
 /*landscape*/
 @media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
     body {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
