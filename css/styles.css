@@ -530,25 +530,31 @@ footer {
     }
 
     .preguntaExploracion {
-        font-size: 1.2rem;
+        margin:2rem .5rem .5rem .5rem;
+        font-size: 1.6rem;
     }
 
     .espaciopregunta {
-        font-size: .7rem;
-        padding: .5rem 5.5rem;
+        align-items: center;
+        font-size: .9rem;
+        padding: .5rem 9.5rem;
     }
 
     .boletin {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
     }
 
     .imageBoletin {
-        width: 6rem;
+        width: 12rem;
+        margin:0.5rem 1rem;
     }
 
     .nombre {
         font-size: .5rem;
+        display: grid;
+        margin:0.2rem 1rem;
+        
     }
 
     .botonMas {
@@ -565,15 +571,16 @@ footer {
     }
 
     iframe {
+        margin:.5rem 2rem;
         background-color: #080056;
-        width: 15rem;
-        height: 10rem;
+        width: 32rem;
+        height: 25rem;
     }
 
     .redesSociales {
-        gap: 1rem;
-        width: 15rem;
-        margin: 1rem;
+        gap: 1.5rem;
+        width: 18rem;
+        margin: 2rem 5rem;
     }
 
     .nuestraPolitica{
@@ -603,7 +610,8 @@ footer {
 
     .persona{
         text-align: center;
-        margin:0rem 6rem 0rem 3rem;
+        margin:0rem 2rem 0rem 2rem;
+        
     }
 
     footer{
