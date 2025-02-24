@@ -34,8 +34,7 @@ footer{
 
 /* NAVBAR */
 .nav {
-    max-width: 100%;
-    width: 100rem;
+    width: 100%;
     display: flex;
     align-items: center;
     align-content: center;
@@ -55,7 +54,7 @@ footer{
 }
 
 a {
-    max-width: 100%;
+    width: 100%;
     text-decoration: none;
     color: var(--background-azul1);
     gap:1rem;
@@ -134,7 +133,7 @@ a {
     max-width: 100%;
     position: absolute;
     z-index: 0;
-    top: 25rem;
+    top: 20rem;
     left: 28rem;
     background-color: var(--background-azul2);
     display: grid;
@@ -163,7 +162,7 @@ a {
 /* -----------------INICIA SECCION DE PREGUNTAS ---------------------------------------------------------*/
 
 .preguntaExploracion {
-    max-width: 100%;
+    width: 100%;
     display: grid;
     align-items: center;
     text-align: center;
@@ -178,14 +177,13 @@ a {
 }
 
 .espaciopregunta {
-    max-width: 100%;
-    margin: .5rem 21rem;
+    width: 100%;
+    margin: .5rem 8rem;
     align-items: center;
     text-align: center;
     font-size: 1rem;
-    padding: .8rem 15rem;
+    padding: .8rem 5rem;
     color: var(--background-azul1);
-    font-weight: 500;
     border-color: var(--background-azul1);
     border-radius: 3rem;
 }
@@ -193,7 +191,7 @@ a {
 
 /*-----------------------------------------------INICIA SECCION DE BOLETINES--------------------------------- */
 .boletines {
-    max-width: 100%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 3rem 2rem 1rem 2rem;
     text-align: start;
@@ -201,7 +199,7 @@ a {
 }
 
 .imageBoletin {
-    max-width: 100%;
+    width: 100%;
     display: grid;
     margin: 0rem .5rem;
     gap: .2rem;
@@ -211,13 +209,13 @@ a {
 }
 
 .imageBoletin:hover {
-    max-width: 100%;
+    width: 100%;
     width: 25.2rem;
     height: 20.2rem;
 }
 
 .boletin {
-    max-width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -226,13 +224,13 @@ a {
 }
 
 .boletines-item {
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     padding: .5rem;
 }
 
 .nombre {
-    max-width: 100%;
+    width: 100%;
     text-align: justify;
     margin: .5rem;
     padding: .5rem 1.5rem 1.5rem 0rem;
@@ -245,7 +243,7 @@ a {
 
 /* boton de mas recientes */
 .botonMas {
-    max-width: 100%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     padding: 0.2rem;
@@ -266,7 +264,7 @@ a {
 /* -------------------SECCION DE MAPA---------------- */
 
 .encuentranos {
-    max-width: 100%;
+    width: 100%;
     color: var(--background-azul1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -280,7 +278,7 @@ a {
 }
 
 .google-maps {
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     padding: 2rem;
     background-color: #047cfd13;
@@ -289,7 +287,7 @@ a {
 /*----------------------REDES SOCIALES SECCION--------------------*/
 
 .redesSociales {
-    max-width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -298,7 +296,7 @@ a {
 }
 
 .facebook {
-    max-width: 100%;
+    width: 100%;
     width: 15rem;
     height: 15rem;
 }
@@ -310,7 +308,7 @@ a {
 
 /* -----------------------SECCION DE NUESTRA POLITICA---------------------------------- */
 .nuestraPolitica {
-    max-width: 100%;
+    width: 100%;
     color: var(--background-azul1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -321,11 +319,11 @@ a {
 
 .nuestraPolitica:hover {
     color: var(--color-azulCielo);
-    max-width: 100%;
+    width: 100%;
 }
 
 .ourPolitica {
-    max-width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -333,7 +331,7 @@ a {
 }
 
 .ourPolitic {
-    max-width: 100%;
+    width: 100%;
     margin: 8rem 2rem 2rem 2rem;
     text-align: center;
     align-items: center;
@@ -347,14 +345,14 @@ a {
 }
 
 .ourPoliti {
-    max-width: 100%;
+    width: 100%;
     margin: 0rem 2rem 2rem 5rem;
     width: 30rem;
     border-radius: 1rem;
 }
 
 .politicaSaber {
-    max-width: 100%;
+    width: 100%;
     margin: 2rem;
     padding: 0.1rem .5rem;
     border-radius: 2rem;
@@ -372,17 +370,17 @@ a {
 /* ----------------------------SECCION DE NUESTRAS PROPUESTAS -------------------------- */
 
 .politicos {
-    max-width: 100%;
+    width: 100%;
     margin: 0rem 8rem;
 }
 
 .encuentranos {
-    max-width: 100%;
+    width: 100%;
     margin: 0rem 1rem;
 }
 
 .persona {
-    max-width: 100%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
@@ -403,7 +401,7 @@ a {
 }
 
 .saberMas {
-    max-width: 100%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
@@ -420,7 +418,8 @@ a {
 }
 
 .politicos {
-    max-width: 100%;
+    
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -428,6 +427,7 @@ a {
 
 /* ----------------------------------FOOTER----------------------------------------------- */
 footer {
+    grid-area: 100%;
     width: 100%;
     background-color: var(--background-azul1);
     color: white;
@@ -504,13 +504,12 @@ footer {
         
     }
     body{
-        background-color: #09A0Db;
         width: 100%;
     }
     footer{
         width: 100%;
         padding:10px 100px;
-        background-color: #cccc36;
+        
     }
     .imagen1Fondo {
         margin: 0.01rem;
@@ -617,10 +616,147 @@ footer {
     }
 
     footer{
+        grid-area: 100%;
         display:grid;
         grid-template-columns: repeat(3, 1fr);
         font-size: .5rem;
         gap:10px;
     }
 
+}
+
+@media screen and (min-width: 600px) {
+    .nav{
+        width: 100%;
+        display: flex;
+        
+    }
+    body{
+        width: 100%;
+        background-color: #cccc36;
+    }
+    footer{
+        width: 100%;
+        
+        
+    }
+    .imagen1Fondo {
+        margin: 0rem;
+        width: 100%;
+    }
+
+    .sombra {
+        position: absolute;
+        font-size: .5rem;
+        align-items: center;
+        text-align: center;
+        padding: 0.7rem;
+        margin:3rem 5rem 3rem 0rem;
+    
+    }
+
+    .botonDonaciones {
+        font-size: .6rem;
+        padding: 0.5rem;
+    }
+
+    .preguntaExploracion {
+        margin:2rem .5rem .5rem .5rem;
+        font-size: 1.6rem;
+    }
+
+    .espaciopregunta {
+        align-items: center;
+        font-size: .9rem;
+        padding: .5rem 9.5rem;
+    }
+
+    .boletin {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .imageBoletin {
+        width: 17rem;
+        margin:0.5rem 1.5rem;
+    }
+
+    .nombre {
+        font-size: .5rem;
+        display: grid;
+        margin:0.2rem 1rem;
+        
+    }
+
+    .botonMas {
+        text-align: center;
+        margin: 0.5rem 2rem;
+    }
+
+    .encuentranos {
+        font-size: 1.2rem;
+    }
+
+    .google-maps {
+        padding: .5rem;
+    }
+
+    iframe {
+        margin:.5rem 2rem;
+        background-color: #080056;
+        width: 36rem;
+        height: 25rem;
+    }
+
+    .redesSociales {
+        gap: 1.5rem;
+        width: 18rem;
+        margin: 2rem 8rem;
+    }
+
+    .nuestraPolitica{
+        font-size: 1.2rem;
+    }
+    
+    .ourPoliti{
+        font-size: 1rem;
+        width: 8rem;
+        height: 2rem;
+    }
+
+    .ourPolitic{
+        font-size: .5rem;
+        
+    }
+
+    .ourPolitica{
+        gap:.5rem;
+        margin:.5rem;
+    }
+
+    .politicos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .persona{
+        text-align: center;
+        margin:0rem 2rem 0rem 2rem;
+        
+    }
+
+    footer{
+        grid-area: 100%;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: .5rem;
+        gap:10px;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+    body{
+        background-color: #080056;
+    }
 }
