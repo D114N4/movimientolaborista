@@ -4,23 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     width: 100%;
 }
-body{
-    width:100%;
-    margin:0;
-    padding: 0;
-}
-html{
-    width:100%;
-    margin:0;
+
+body {
+    width: 100%;
+    margin: 0;
     padding: 0;
 }
 
-footer{
-   width:100%;
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+footer {
+    width: 100%;
+}
+
 /*PROPIEDADES UTILIZADAS EN TODO EL BODY*/
 :root {
     --background-azul1: #080056;
@@ -45,7 +49,7 @@ footer{
     position: fixed;
     background-color: rgb(253, 252, 249);
     z-index: 1;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
 .logotipo {
@@ -57,7 +61,7 @@ a {
     width: 100%;
     text-decoration: none;
     color: var(--background-azul1);
-    gap:1rem;
+    gap: 1rem;
     justify-content: space-around;
     align-items: first baseline;
 }
@@ -82,9 +86,9 @@ a {
     text-decoration: none;
     border-radius: 2rem;
     margin: .2rem .5rem;
-    padding: .1rem .3rem;
+    padding: .1rem .2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     transition: .3s;
     background-color: var(--color-azulCielo);
     text-align: center;
@@ -111,7 +115,7 @@ a {
     cursor: pointer;
     color: var(--color-negro);
     transition: .3s;
-    font-size: .95rem;
+    font-size: .85rem;
 
 }
 
@@ -278,7 +282,7 @@ a {
 }
 
 .google-maps {
-    width: 100%;
+    width: 20rem;
     text-align: center;
     padding: 2rem;
     background-color: #047cfd13;
@@ -418,7 +422,7 @@ a {
 }
 
 .politicos {
-    
+
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -482,35 +486,38 @@ footer {
     display: none;
     flex-direction: column;
     cursor: pointer;
-  }
-  
-  .hamburguer .bar {
+}
+
+.hamburguer .bar {
     width: 25px;
     height: 4px;
     background-color: white;
     margin: 5px;
-  }
-  
-  /* Estilo para el menú en dispositivos pequeños */
+}
+
+/* Estilo para el menú en dispositivos pequeños */
 
 
 
 
 /* -------------------------MEDIAQUERIES------------------------------ */
 @media screen and (min-width: 300px) {
-    .nav{
+    .nav {
         width: 100%;
         display: flex;
-        
+
     }
-    body{
+
+    body {
         width: 100%;
     }
-    footer{
+
+    footer {
         width: 100%;
-        padding:10px 100px;
-        
+        padding: 10px 100px;
+
     }
+
     .imagen1Fondo {
         margin: 0.01rem;
         width: 100%;
@@ -521,8 +528,8 @@ footer {
         align-items: center;
         text-align: center;
         padding: 0.7rem;
-        margin:3rem 15rem 3rem 0rem;
-    
+        margin: 3rem 15rem 3rem 0rem;
+
     }
 
     .botonDonaciones {
@@ -531,7 +538,7 @@ footer {
     }
 
     .preguntaExploracion {
-        margin:2rem .5rem .5rem .5rem;
+        margin: 2rem .5rem .5rem .5rem;
         font-size: 1.6rem;
     }
 
@@ -548,14 +555,14 @@ footer {
 
     .imageBoletin {
         width: 12rem;
-        margin:0.5rem 1rem;
+        margin: 0.5rem 1rem;
     }
 
     .nombre {
         font-size: .5rem;
         display: grid;
-        margin:0.2rem 1rem;
-        
+        margin: 0.2rem 1rem;
+
     }
 
     .botonMas {
@@ -572,7 +579,7 @@ footer {
     }
 
     iframe {
-        margin:.5rem 2rem;
+        margin: .5rem 2rem;
         background-color: #080056;
         width: 32rem;
         height: 25rem;
@@ -584,65 +591,69 @@ footer {
         margin: 2rem 5rem;
     }
 
-    .nuestraPolitica{
+    .nuestraPolitica {
         font-size: 1.2rem;
     }
-    
-    .ourPoliti{
+
+    .ourPoliti {
         font-size: 1rem;
         width: 8rem;
         height: 2rem;
     }
 
-    .ourPolitic{
+    .ourPolitic {
         font-size: .5rem;
-        
+
     }
 
-    .ourPolitica{
-        gap:.5rem;
-        margin:.5rem;
+    .ourPolitica {
+        gap: .5rem;
+        margin: .5rem;
     }
 
-    .politicos{
+    .politicos {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .persona{
+    .persona {
         text-align: center;
-        margin:0rem 2rem 0rem 2rem;
-        
+        margin: 0rem 2rem 0rem 2rem;
+
     }
 
-    footer{
+    footer {
         grid-area: 100%;
-        display:grid;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         font-size: .5rem;
-        gap:10px;
+        gap: 10px;
     }
 
 }
 
 @media screen and (min-width: 600px) {
-    .nav{
+    .nav {
         width: 100%;
         display: flex;
-        
+
     }
-    body{
+
+    body {
         width: 100%;
-        background-color: #cccc36;
     }
-    footer{
+
+    footer {
         width: 100%;
-        
-        
+
+
+
     }
+
     .imagen1Fondo {
         margin: 0rem;
         width: 100%;
+
     }
 
     .sombra {
@@ -651,8 +662,8 @@ footer {
         align-items: center;
         text-align: center;
         padding: 0.7rem;
-        margin:3rem 5rem 3rem 0rem;
-    
+        margin: 3rem 5rem 3rem 0rem;
+
     }
 
     .botonDonaciones {
@@ -661,7 +672,7 @@ footer {
     }
 
     .preguntaExploracion {
-        margin:2rem .5rem .5rem .5rem;
+        margin: 2rem .5rem .5rem .5rem;
         font-size: 1.6rem;
     }
 
@@ -678,14 +689,14 @@ footer {
 
     .imageBoletin {
         width: 17rem;
-        margin:0.5rem 1.5rem;
+        margin: 0.5rem 1.5rem;
     }
 
     .nombre {
         font-size: .5rem;
         display: grid;
-        margin:0.2rem 1rem;
-        
+        margin: 0.2rem 1rem;
+
     }
 
     .botonMas {
@@ -702,61 +713,197 @@ footer {
     }
 
     iframe {
-        margin:.5rem 2rem;
+        margin: .5rem 4rem;
         background-color: #080056;
-        width: 36rem;
+        width: 30rem;
         height: 25rem;
     }
 
     .redesSociales {
         gap: 1.5rem;
         width: 18rem;
-        margin: 2rem 8rem;
+        margin: 2rem 5rem 2rem 20rem;
     }
 
-    .nuestraPolitica{
+    .nuestraPolitica {
         font-size: 1.2rem;
     }
-    
-    .ourPoliti{
+
+    .ourPoliti {
         font-size: 1rem;
-        width: 8rem;
-        height: 2rem;
+        width: 20rem;
+        height: 30rem;
     }
 
-    .ourPolitic{
+    .ourPolitic {
         font-size: .5rem;
-        
+
     }
 
-    .ourPolitica{
-        gap:.5rem;
-        margin:.5rem;
+    .ourPolitica {
+        gap: .5rem;
+        margin: .5rem;
     }
 
-    .politicos{
+    .politicos {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 10rem;
     }
 
-    .persona{
+    .persona {
         text-align: center;
-        margin:0rem 2rem 0rem 2rem;
-        
+        margin: 0rem 1rem 0rem 2rem;
+
     }
 
-    footer{
+    .saberMas {
+        margin: 0.5rem 4rem;
+        text-align: center;
+    }
+
+    footer {
         grid-area: 100%;
-        display:grid;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         font-size: .5rem;
-        gap:10px;
+        gap: 10px;
     }
 
 }
 
-@media screen and (min-width: 900px){
-    body{
+@media screen and (min-width: 1100px) {
+    body {
+        background-color: #0a816d;
+    }
+
+    .nav {
+        width: 100%;
+        display: flex;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .imagen1Fondo {
+        margin: 0rem;
+        width: 100%;
+
+    }
+
+    .sombra {
+        position: absolute;
+        font-size: 5.5rem;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        margin: 3rem 5rem 3rem 0rem;
+
+    }
+
+    .botonDonaciones {
+        font-size: 1.6rem;
+        padding: 0.5rem;
+    }
+
+    .preguntaExploracion {
+        margin: 2rem .5rem .5rem .5rem;
+        font-size: 2.6rem;
+    }
+
+    .espaciopregunta {
+        align-items: center;
+        font-size: 2rem;
+        padding: .5rem 5.5rem;
+    }
+
+    .boletin {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .imageBoletin {
+        width: 17rem;
+        margin: 0.5rem 1.5rem;
+    }
+
+    .nombre {
+        font-size: .5rem;
+        display: grid;
+        margin: 0.2rem 1rem;
+
+    }
+
+    .botonMas {
+        text-align: center;
+        margin: 0.5rem 2rem;
+    }
+
+    .encuentranos {
+        font-size: 1.2rem;
+    }
+
+    .google-maps {
+        padding: .5rem;
+    }
+
+    iframe {
+        margin: .5rem 4rem;
         background-color: #080056;
+        width: 30rem;
+        height: 25rem;
+    }
+
+    .redesSociales {
+        gap: 1.5rem;
+        width: 18rem;
+        margin: 2rem 5rem 2rem 20rem;
+    }
+
+    .nuestraPolitica {
+        font-size: 1.2rem;
+    }
+
+    .ourPoliti {
+        font-size: 1rem;
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .ourPolitic {
+        font-size: .5rem;
+
+    }
+
+    .ourPolitica {
+        gap: .5rem;
+        margin: .5rem;
+    }
+
+    .politicos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 10rem;
+    }
+
+    .persona {
+        text-align: center;
+        margin: 0rem 1rem 0rem 2rem;
+
+    }
+
+    .saberMas {
+        margin: 0.5rem 4rem;
+        text-align: center;
+    }
+
+    footer {
+        grid-area: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: .5rem;
+        gap: 10px;
     }
 }
